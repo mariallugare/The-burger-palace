@@ -1,0 +1,158 @@
+body{
+    font-family: poppins;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.landing{
+    display: flex;
+    text-align: center;
+    background-image: url(Images/Untitled.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -90px;
+}
+#landingimg img{
+    width: 500px;
+    height: 600px;
+    padding-left: 400px;
+    
+}
+.landingtxt{
+    width: 50%;
+}
+.Button{
+    background-color: #f8952d;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    font-size: 18px;
+    border: transparent;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+  
+}
+.about h2{
+    color: brown;
+}
+.about img{
+    height: 200px;
+    width: 200px;
+}
+.quality{
+    border: 2px black solid;
+    border-radius: 5px;
+}.Menu{
+    /* display: flex; */
+    justify-content: space-between;
+    flex-direction: row;
+}
+.burger2{
+    display: flex;
+}
+.burger{
+    text-align: center;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+.burger img{
+    height: 200px;
+    width: 200px;
+}
+.burger h2{
+    color: brown;
+}
+.burgers{
+    display: flex;
+}
+.burger{
+    text-align: center;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+.burger img{
+    height: 200px;
+    width: 200px;
+}
+.burger h2{
+    color: brown;
+}
+#menuheading{
+    text-align: center;
+    color: #f8952d;
+    font-weight: 900;
+}
+span{
+    color: black;
+}
+
+/* Double check */
+.double{
+    display: flex;
+    background-color: #f7fdf6;
+}
+.doubletxt{
+    width: 50%;
+    text-align: center;
+}
+.doubletxt h1{
+    font-size: 58px;
+}
+.doubletxt h3{
+    font-size: 38px;
+    color: darkgray;
+}
+.doubleimg img{
+    height: 800px;
+    width:  800px;
+}
+#dbcheck{
+    margin-top: -500;
+}
+/* Dicover */
+.discover{
+    background-color:#ffde3a;
+    padding: 50px;
+    display: flex;
+}
+.txt{
+    width: 50%;
+}
+.txt h1{
+    font-size: 80px;
+}
+#playstore{
+    text-align: left;
+    color: white;
+    background-color: black;
+    border: transparent;
+    padding: 15px;
+    margin-left: 40px;
+}
+/* Semi footer */
+.footer{
+    display: flex;
+    
+}
+.logob{
+    width: 33%;
+}
+.sitemaps{
+    width: 33%;
+}
+#subscribe{
+    padding: 10px;
+    border-radius: 10px;
+}
+#submit{
+    padding: 10px;
+    border-radius: 10px;
+    border: transparent;
+    background-color:#f8952d;
+}

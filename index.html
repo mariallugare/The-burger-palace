@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The burger palace</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Palace</title>
+</head>
+<body>
     <!-- Menu -->
-    <div class="Menu">
-      <div><img src="Images/logo.png" alt="" /></div>
-      <div><h2>Home</h2></div>
-      <div><h2>Offers</h2></div>
-      <div><h2>contacts</h2></div>
-      <div><h2>About</h2></div>
+    <div class="menu">
+        <div><img src="Images/logo.png" alt="" /></div>
+        <div></div>
+        <div></div>
+        <div><h2>Home</h2></div>
+        <div><h2>Offers</h2></div>
+        <div><h2>contacts</h2></div>
+        <div><h2>About</h2></div>
     </div>
-    <!-- landingpage -->
-    <div class="landingpage">
-      <div id="landingtag">
-        <br /><br /><br />
-        <h1>Rain or shine</h1>
-        <h1>its time to dine</h1>
-        <br /><br />
-        <p>
-          we cook and deliver the testiest burger right to your designated
-          location
-        </p>
-        <br><br>
-
-        <button class="Button">Order now</button>
-      </div>
-
-      <div id="landingimage">
-        <img src="Images/[CITYPNG 1.png" alt="" height="40%" />
-      </div>
+    <!-- Landing section -->
+    <div class="landing">
+        <br><br><br>
+        <div class="landingtxt">
+            <br /><br /><br />
+            <br /><br /><br />
+            <h1>Rain or shine</h1>
+            <h1>its time to dine</h1>
+            <br /><br />
+            <p>
+              we cook and deliver the testiest burger right to your designated
+              location
+            </p>
+            <br><br>
+            <button class="Button">Order now</button>
+        </div>
+        <div id="landingimg">
+            <br /><br /><br />
+            <img src="Images/[CITYPNG 1.png" alt="" />
+        </div>
     </div>
-    <!-- About  -->
+    <br><br><br>
+    <!-- Services -->
     <div class="about">
         <div class="quality">
             <img src="Images/dish.png" alt="">
@@ -61,9 +65,10 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deserunt exercitationem, natus atque assumenda voluptas expedita maiores quos eveniet rem voluptate adipisci eum nam vero maxime cumque aut optio doloremque.</p>
         </div>
     </div>
-<!-- Menu -->
-<br> <br><br>
-<div class="menu">
+    <!-- Our Menu -->
+    <br> <br><br>
+<div class="ourmenu">
+    <h1 id="menuheading"> <span>Our</span>  Menu</h1>
   <div class="burgers">
       <div class="burger">
           <img src="Images/double-check1.png" alt="">
@@ -112,7 +117,7 @@
       </div>
   </div>
   <br><br>
-  <div class="burgers">
+  <div class="burger2">
       <div class="burger">
           <img src="Images/double-check1.png" alt="">
           <h2> DOUBLE BURGER</h2>
@@ -159,5 +164,52 @@
       </div>
   </div>
 </div>
-  </body>
+<!-- Double decker -->
+<div class="double">
+    <div class="doubletxt">
+            <h1><br><br></h1>
+        <h1>THE DOUBLE</h1>
+        <H1  style="    color: #F8952D;">Decker</H1>
+        <h3>Taste the explosion in your mouth</h3>
+    </div>
+    <div class="doubleimg">
+        <img src="Images/double-check2.png" alt=""><br>
+        <!-- <img src="Images/double-check1.png"  alt=""> -->
+    </div>
+</div>
+<!-- Discover -->
+<div class="discover">
+    <div class="txt">
+        <h1>Discover even more <br> with our mobile <br> apps</h1>
+        <button id="playstore">Get it On <br><br> GOOGLE PLAYSTORE</button>
+        <button id="playstore">Get it On <br><br> GOOGLE PLAYSTORE</button>
+    </div>
+    <div class="playstore">
+        <img src="Images/foodapp2.png" alt="">
+    </div>
+</div>
+<!-- Footer -->
+<div class="footer">
+    <div class="logob">
+        <img src="Images/logo.png" alt="">
+    </div>
+    <div class="sitemaps">
+        <h1>SITEMAP</h1>
+        <h3>Home</h3>
+        <h3>Services</h3>
+        <h3>About</h3>
+        <h3>contacts</h3>
+    </div>
+    <div>
+        <h1>Subcribe to our newsletter</h1>
+        <input type="text" id="subscribe" placeholder="Input your email">
+        <button id="submit">Submit</button>
+    </div>
+</div>
+</body>
 </html>
+
+
+
+
+
